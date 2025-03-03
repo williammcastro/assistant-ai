@@ -14,12 +14,8 @@ dist-ssr
 .env
 mongo
 
-# App api de ejemplo funcionando en banahosting
-/src/ejemplo_old
-
 # uploaded files
 /uploads
-
 
 # Editor directories and files
 .vscode/*
@@ -31,3 +27,13 @@ mongo
 *.njsproj
 *.sln
 *.sw?
+
+# Archivos de audio y video
+*.mp3
+*.mp4
+*.avi
+*.wmv
+*.mov
+*.mkv
+*.m4a
+*.mpg
