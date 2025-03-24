@@ -10,7 +10,7 @@ const main = async () => {
     try {
         console.log('🔹 Paso 1: Enviando audio al STT');
         const startSTT = performance.now();
-        const result = await speechToText('testw.m4a');
+        const result = await speechToText('audioIn.m4a');
         const endSTT = performance.now();
         if (!result) throw new Error("STT no pudo transcribir el audio");
         console.log(`✅ Respuesta de STT obtenida (${(endSTT - startSTT).toFixed(2)} ms):`, result.text);
